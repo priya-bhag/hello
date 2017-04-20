@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  
+  <groups>
+  
+  <define name="All" >
+  
+  <include name="sanity" />
+  <include name="smoke"/>
+  
+  </define>
+  
+   <run> 
+   
+   
+   <include name="All" />
+  
+  </run>
+  
+  
+  
+  
+  
+  </groups>
+  
+  
+  
+  
+  
+  
+    <classes>
+      <class name="toolsQA.Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
